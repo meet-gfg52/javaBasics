@@ -1,6 +1,8 @@
 package com.gfg.jbdl.domain;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     /**
      *OOPS
      * 1. Data encapsulation

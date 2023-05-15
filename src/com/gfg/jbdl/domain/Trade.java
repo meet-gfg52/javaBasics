@@ -99,6 +99,9 @@ public class Trade {
         return Objects.equals(symbol, trade.symbol) && Objects.equals(entryDate, trade.entryDate) && Objects.equals(exitDate, trade.exitDate) && Objects.equals(buyPrice, trade.buyPrice) && Objects.equals(sellPrice, trade.sellPrice) && Objects.equals(quantity, trade.quantity) && Objects.equals(result, trade.result);
     }
 
+    public Trade() {
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(symbol, entryDate, exitDate, buyPrice, sellPrice, quantity, result);
